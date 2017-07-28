@@ -1,0 +1,21 @@
+{
+  "name": "sandbox-insights",
+  "version": "1.0.0",
+  "description": "SandBox Insights Node Package",
+  "main": "lib/SBInsights.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "SandBox Commerce <info@sandboxcommerce.com> (https://www.sandboxcommerce.com/)",
+  "license": "ISC",
+  "engines": {
+    "node": ">= v0.10.0"
+  },
+  "contributors": [
+    "Mark Escobedo <mark@sandboxcommerce.com>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/SandBoxApps/sandbox-insights.git"
+  }
+}

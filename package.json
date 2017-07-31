@@ -1,6 +1,6 @@
 {
   "name": "sandbox-insights",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "SandBox Insights Node Package",
   "main": "lib/SBInsights.js",
   "scripts": {

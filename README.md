@@ -38,4 +38,22 @@ To track page views, use the module like this:
 SBInsights.recordPageView('pageName');
 ```
 
+### Recording Users and User Data
+
+``` js
+// to record the start of a user session, call this function and pass along a unique identifier for the user
+SBInsights.recordUser('identifier');
+
+// to record and update the user's data, call this function once you've started the user's session
+SBInsights.updateUser('data type', 'value');
+
+// the currently supported data types are:
+//   'email'
+//   'locale'
+//   'firstName'
+//   'lastName'
+//   'platform'
+//   'versionNumber'
+```
+
 ### More functionality coming soon

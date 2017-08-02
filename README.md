@@ -45,7 +45,7 @@ SBInsights.recordPageView('pageName');
 SBInsights.recordUser('identifier');
 
 // to record and update the user's data, call this function once you've started the user's session
-SBInsights.updateUser('data type', 'value');
+SBInsights.updateUser('identifier', 'data type', 'value');
 
 // the currently supported data types are:
 //   'email'
